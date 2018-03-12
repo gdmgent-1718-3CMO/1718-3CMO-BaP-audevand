@@ -1,5 +1,5 @@
 ---
-# layout: vertical
+layout: vertical
 permalink: logo/logo_gebruik
 published: true
 title: Logo gebruik

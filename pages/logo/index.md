@@ -1,5 +1,5 @@
 ---
-# layout: vertical
+layout: vertical
 permalink: logo/
 published: true
 title: Logo intro
