@@ -16,11 +16,11 @@
 - name: Kleur
   description: Kleur
   folder: pages/kleur/
-  permalink: kleur/i
+  permalink: kleur/
 # fa-icon: icon-info
 
 - name: Styleguide
   description: Stijlgids voor de Huistijlgids
   folder: pages/stijlgids
-  permalink: /stijlgids
+  permalink: stijlgids/
   # fa-icon: icon-info
