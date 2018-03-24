@@ -6,8 +6,21 @@ body {
     font-size: $font-size-base;
     line-height: $lineheight-base;
     background-color: $body-bg;
+    background-image: url(../images/schuin.png);
+    background-size: 110%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: $body-color;
+    padding: 50px;
 }
+
+
+
+main {
+   margin-left: 100px;
+}
+  
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $myfont-family-title;
@@ -17,8 +30,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-weight: $font-weight-bold;
-    font-size: 4rem;
-    color: $color-grey-2;
+    font-size: 6rem;
+    color: $clientcolor-6;
+    line-height: 66px;
+    padding-bottom: 85px; 
 }
 h2 {
     font-weight: $font-weight-bold;
@@ -34,9 +49,9 @@ a {
     color: $body-link;
     border-bottom: dotted 1px $body-link;
     &:hover{
-        color: $body-link;
+        color: $clientcolor-3;
         text-decoration: none;
-        border-bottom: solid 1px $body-link;
+        border-bottom: none; //solid 1px $body-link;
     }
     &:active{
         background-color: $body-link;
@@ -55,12 +70,11 @@ main ul {
   margin: 0 0 1em;
   padding: 0;
   li {
-    padding-left: 25px;
-    text-indent: -25px;
+    padding-left: 22px;
+    text-indent: -22px;
     &:before {
-        content:'\2022';
-        color: $mycolor-5;
-        margin-right: 18px;
+        content:'|';
+        margin-right: 15px;
     }    
   }
 }

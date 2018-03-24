@@ -2,6 +2,7 @@
  -------------------------------------------------- */
  @media (min-width: 768px) {
     .custom-nav-ver {
+             
         .collapse {
             display: block;
         }
@@ -23,16 +24,61 @@
             display: block  !important;
         }
      }
+ 
+    .navbar {
+        background-color: $color-white;
+        position: fixed;
+        padding-top: 45px;
+        font-size: 20px;
+     }
+    
+    .navbar a {
+        border: none;   
+     }
+  
+    .navbar-light .navbar-nav .nav-link {
+        color: $mycolor-1;
+        font-size: 20px;
+     }
 
- }
+    .navbar-light:hover .navbar-nav:hover .nav-link:hover {
+         color: $color-white;
+         background-color: $mycolor-1;
+        
+     }
+
+}
+    
+        
 
  /* table of contents
  --------------------------- */
  #toc {
     margin-bottom: 1em;
+    
     .nav {
         display: block;
+        position: fixed;
     }
+  
+    .nav>li>a {
+        color: $color-grey-2;
+        border-left: 0.5px solid $color-grey-2;
+        border-bottom: none;
+        padding: 0px 15px;
+        margin: 0px 10px 10px;
+        font-size: 17px;
+        font-weight: $font-weight-light;
+    }
+
+    .nav>li>a:hover, .nav>li>a:focus, .nav>li>a:active {
+            color: $clientcolor-3;
+            border-left: 0.5px solid $clientcolor-3;
+    
+        //.nav>li>a.selected { moet een class selected maken
+    }
+
+    //.nav>li>a:focus, nav[data-toggle=toc] .nav>li>a:hover
 
  } 
 
