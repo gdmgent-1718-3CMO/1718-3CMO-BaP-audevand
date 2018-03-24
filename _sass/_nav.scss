@@ -8,6 +8,7 @@
         }
         .navbar-collapse {
             width:100%;
+            padding-left: 87px;
         }
         .dropdown-menu {
             position: static !important;
@@ -28,10 +29,16 @@
     .navbar {
         background-color: $color-white;
         position: fixed;
-        padding-top: 45px;
         font-size: 20px;
+        padding: 32px 0 0;
+        width: 210px;
      }
     
+    .navbar-brand {
+        padding: 0;
+        margin: 0;
+    }
+
     .navbar a {
         border: none;   
      }
