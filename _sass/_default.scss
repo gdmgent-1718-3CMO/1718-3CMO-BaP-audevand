@@ -73,11 +73,12 @@ main ul {
   margin: 0 0 1em;
   padding: 0;
   li {
-    padding-left: 22px;
-    text-indent: -22px;
+    padding-left: 21px;
+    padding-bottom: 15px;
+    text-indent: -21px;
     &:before {
         content:'|';
-        margin-right: 15px;
+        margin-right: 10px;
     }    
   }
 }
