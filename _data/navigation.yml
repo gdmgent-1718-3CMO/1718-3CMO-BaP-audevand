@@ -4,13 +4,13 @@
 - name: Home
   description: Home
   # folder: pages/
-  permalink: /index.htlm
+  permalink: /index.html
   # fa-icon: icon-info
 
 - name: Logo
   description: Logo
   # folder: pages/logo/
-  permalink: /logo/index.htlm
+  permalink: /logo/index.html
   # fa-icon: icon-graduation-cap
 
 - name: Kleur
