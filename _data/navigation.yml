@@ -4,23 +4,23 @@
 - name: Home
   description: Home
   # folder: pages/
-  permalink: /index.html
+  permalink: /
   # fa-icon: icon-info
 
 - name: Logo
   description: Logo
   # folder: pages/logo/
-  permalink: /logo/index.html
+  permalink: /logo/
   # fa-icon: icon-graduation-cap
 
 - name: Kleur
   description: Kleur
   # folder: pages/kleur/
-  permalink: /kleur/index.html
+  permalink: /kleur/
 # fa-icon: icon-info
 
 - name: Styleguide
   description: Stijlgids voor de Huistijlgids
   # folder: pages/stijlgids
-  permalink: /stijlgids/index.html
+  permalink: /stijlgids/
   # fa-icon: icon-info
