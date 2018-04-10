@@ -1,25 +1,31 @@
 # functie uitschakelen met '#'
 # dubbele spatie voor de criteria behouden
 
-- name: Home
-  description: Home
+- name: branding
+  description: branding
   # folder: pages/
-  permalink: / 
+  permalink: /branding 
   # fa-icon: icon-info
 
-- name: Logo
-  description: Logo
+- name: logo
+  description: logo
   # folder: pages/logo/
   permalink: /logo
   # fa-icon: icon-graduation-cap
 
-- name: Kleur
-  description: Kleur
+- name: kleur
+  description: kleur
   # folder: pages/kleur/
   permalink: /kleur
-# fa-icon: icon-info
+  # fa-icon: icon-info
 
-- name: Styleguide
+- name: font
+  description: font
+  # folder: pages/kleur/
+  permalink: /font
+  # fa-icon: icon-info
+
+- name: styleguide
   description: Stijlgids voor de Huistijlgids
   # folder: pages/stijlgids
   permalink: /stijlgids
