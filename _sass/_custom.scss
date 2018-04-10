@@ -58,7 +58,7 @@
 .blue {
   background-color: $clientcolor-4;
   &:hover {
-    background-color: rgba(27,130,150,0.5); 
+    background-color: rgba(35,185,214,0.5); 
   }
 }
 
@@ -73,6 +73,37 @@
   background-color: $clientcolor-6;
   &:hover {
     background-color: rgba(238,114,3,0.5); 
+  }
+}
+
+.darker {
+  background-color: rgba(27,130,150,1);
+  &:hover {
+    background-color: rgba(27,130,150,0.5); 
+  }
+}
+
+.black {
+  background-color: $color-black;
+  &:hover {
+    background-color: rgba(0,0,0,0.5);  
+  }
+}
+
+.grey {
+  background-color: $mycolor-1;
+  border: solid 0.5px rgba(255,255,255,0.7);
+  &:hover {
+    border-color: rgba(255,255,255,0.3);
+  }
+}
+
+.white {
+  background-color: $color-white;
+  color: $color-black;
+  &:hover {
+    background-color: rgba(255,255,255,0.5);  
+    color: $color-white;
   }
 }
 //
