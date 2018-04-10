@@ -4,23 +4,18 @@
 - name: branding
   description: branding
   # folder: pages/
-<<<<<<< HEAD
   permalink: /branding 
-=======
-  permalink: /
->>>>>>> e4d0fd04c8e13d3187ccb2d716ba3b3318bb4d76
   # fa-icon: icon-info
 
 - name: logo
   description: logo
   # folder: pages/logo/
-  permalink: /logo/
+  permalink: /logo
   # fa-icon: icon-graduation-cap
 
 - name: kleur
   description: kleur
   # folder: pages/kleur/
-<<<<<<< HEAD
   permalink: /kleur
   # fa-icon: icon-info
 
@@ -29,13 +24,9 @@
   # folder: pages/kleur/
   permalink: /font
   # fa-icon: icon-info
-=======
-  permalink: /kleur/
-# fa-icon: icon-info
->>>>>>> e4d0fd04c8e13d3187ccb2d716ba3b3318bb4d76
 
 - name: styleguide
   description: Stijlgids voor de Huistijlgids
   # folder: pages/stijlgids
-  permalink: /stijlgids/
+  permalink: /stijlgids
   # fa-icon: icon-info
