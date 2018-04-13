@@ -46,13 +46,16 @@
     .navbar-light .navbar-nav .nav-link {
         color: $mycolor-1;
         font-size: 20px;
+        &:hover {
+        color: $color-white;
+        background-color: $mycolor-1;
+          }
      }
 
-    .navbar-light:hover .navbar-nav:hover .nav-link:hover {
-         color: $color-white;
-         background-color: $mycolor-1;
-        
-     }
+     //.home_button:hover {
+       // visibility: hidden;
+
+     //}
 
 }
     
@@ -79,8 +82,8 @@
     }
 
     .nav>li>a:hover, .nav>li>a:focus, .nav>li>a:active {
-            color: $clientcolor-3;
-            border-left: 0.5px solid $clientcolor-3;
+            color: $clientcolor-2;
+            border-left: 0.5px solid $clientcolor-2;
     
         //.nav>li>a.selected { moet een class selected maken
     }

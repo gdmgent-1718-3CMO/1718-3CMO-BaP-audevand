@@ -6,6 +6,33 @@
 /* Body
 ---------------------------------------------
 */
+//LOGO SQUARES: page logo
+.logo_top-bottom {
+  margin: 65px  0  75px 0;
+}
+.marge-marges {
+  padding: 17px 0 0 15px;
+}
+
+.square-logo {
+  margin: 25px 0 20px 22px;
+}
+
+.download-square {
+width: 125px;
+height: 70px;
+position: absolute;
+text-align: center;
+padding-top: 23px;
+margin: 8px 0 0 10px;
+color: transparent;
+&:hover {
+  color: $color-white;
+  background-color: rgba(77,77,77,0.6);
+  cursor: pointer;
+  }
+}
+//
 
 //COLOR SQUARES: page kleur
 .square {
@@ -147,21 +174,22 @@ footer {
 #to-top {
   display: none;       /* Hidden by default */
   position: fixed;     /* Fixed/sticky position */
-  bottom: 20px;        /* Place the button at the bottom of the page */
-  right: 30px;         /* Place the button 30px from the right */
+  bottom: 45px;        /* Place the button at the bottom of the page */
+  left: 55px;         /* Place the button 30px from the right */
   z-index: 99;         /* Make sure it does not overlap */
   border: none;        /* Remove borders */
   outline: none;       /* Remove outline */
-  background-color:$mycolor-3; /* Set a background color */
-  color: green;      /* Text color */
+  background-color: transparent; /* Set a background color */
+  //color: green;      /* Text color */
   cursor: pointer;     /* Add a mouse pointer on hover */
-  //padding: 15px;     /* Some padding */
-  width: 40px;
-  height: 40px;
+  padding-right: 17.5px;     /* Some padding */
+  align-items: center;
+  width: 50px;
+  height: 50px;
   border-radius: none; /* Rounded corners */
-  font-size: 18px;     /* Increase font size */
+ // font-size: 18px;     /* Increase font size */
   &:hover {
-    background-color:$mycolor-5; 
+    background-color: $mycolor-1; 
   }
 }
 

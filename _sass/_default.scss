@@ -17,6 +17,10 @@ body {
     margin-left: 0;
 }
 
+.bg-branding {
+    background-image: url(../images/schuin-stukje.png);
+}
+
 
 
 main {
@@ -30,7 +34,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $font-weight-bold;
     text-transform: uppercase;
 }
-
 h1 {
     font-weight: $font-weight-bold;
     font-size: 6rem;
@@ -44,10 +47,17 @@ h2 {
     margin: 2rem 0 1rem;
     padding: 35px 0 20px; 
 }
-h3, h4, h5, h6 {
-    font-size: 1rem;
-    margin: 2rem 0 0;
+h3 {
+    font-size: $font-size-base;
+    padding: 0 0 12px 0;
 }
+h4, h5, h6 {
+    font-weight: $client-font-weight-base;
+    text-transform: none;
+    font-size: $font-size-base;
+    padding: 0 0 0 0;
+}
+
 a {
     text-decoration: none;
     color: $body-link;
