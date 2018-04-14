@@ -25,7 +25,7 @@
   permalink: /font
   # fa-icon: icon-info
 
-- name: stijlegids
+- name: stijlgids
   description: Stijlgids van de Huistijl
   # folder: pages/stijlgids
   permalink: /stijlgids
