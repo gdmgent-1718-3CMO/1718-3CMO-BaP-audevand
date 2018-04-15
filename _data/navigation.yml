@@ -26,7 +26,7 @@
   # fa-icon: icon-info
 
 - name: stijlgids
-  description: Stijlgids van de Huistijl
+  description: Stijlgids van de huistijl
   # folder: pages/stijlgids
   permalink: /stijlgids
   # fa-icon: icon-info
