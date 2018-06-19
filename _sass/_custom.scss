@@ -19,19 +19,33 @@
 }
 
 .download-square {
-width: 170px;
-height: 170px;
-position: absolute;
-text-align: center;
-padding-top: 30px;
-margin: 0 0 0 0;
-color: transparent;
-&:hover {
-  color: $color-white;
-  background-color: rgba(77,77,77,0.6);
-  cursor: pointer;
-  }
+  width: 170px;
+  height: 90px;
+  position: absolute;
+  text-align: center;
+  padding: 30px 30px;
+  margin: 0 0 0 0;
+  color: transparent;
+  font-weight: $font-weight-base;
+  line-height: 1.2em;
+  &:hover {
+    color: $color-white;
+    background-color: rgba(77,77,77,0.6);
+    cursor: pointer;
+    }
 }
+
+.tekstcentraal {
+  width: 170px;
+  height: 170px;
+  padding-top: 47px;
+}
+
+.marginleft {
+  margin-left: -30px;
+}
+
+
 //
 
 //COLOR SQUARES: page kleur
@@ -135,6 +149,45 @@ color: transparent;
 }
 //
 
+//page stijlgids
+.margin-afb {
+  margin-left: 15px;
+}
+
+.img-sponsering {
+  &:hover {
+    visibility: hidden;
+    }
+}
+
+.sponser-vb {
+  position: absolute;
+  margin: 13.7px;
+  height: 400px;
+  width: 388px;
+  background-image:url(../images/sponser-vb.png);
+  &:hover {
+    background-image:url(../images/sponser.png);
+    visibility: visible;
+    }
+}
+
+
+.tekst-illustratie {
+  padding: 12px 18px;
+}
+
+.margin-icon {
+  margin: 0;
+}
+
+.tekst-icon {
+  margin-left: -15px;
+  padding-left: 0;
+}
+
+//
+
 /* FOOTER
 ----------------------------------------------
 sticked to the bottom with small content pages
@@ -153,19 +206,24 @@ body {
 .bh-absolute-bottom {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -30px;
   left: 0;
 }
 
 footer {
     background-color: $mycolor-2;
     color: $color-white;
+    padding-top: 15px;
     a {
         color: $color-white;
        // &:hover {
             
         //}
     }
+
+.padding-left-F{
+    padding-left: 25px;
+}
 }
 
 /* BACK TO TOP
@@ -174,7 +232,7 @@ footer {
 #to-top {
   display: none;       /* Hidden by default */
   position: fixed;     /* Fixed/sticky position */
-  bottom: 45px;        /* Place the button at the bottom of the page */
+  bottom: 65px;        /* Place the button at the bottom of the page */
   left: 55px;         /* Place the button 30px from the right */
   z-index: 99;         /* Make sure it does not overlap */
   border: none;        /* Remove borders */

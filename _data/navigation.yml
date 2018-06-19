@@ -19,10 +19,10 @@
   permalink: /kleur
   # fa-icon: icon-info
 
-- name: font
-  description: font
+- name: font & tekst
+  description: font&tekst
   # folder: pages/kleur/
-  permalink: /font
+  permalink: /font&tekst
   # fa-icon: icon-info
 
 - name: stijlgids

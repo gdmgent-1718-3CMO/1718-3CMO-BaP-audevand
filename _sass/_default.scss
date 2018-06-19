@@ -74,10 +74,27 @@ a {
     }
     //&:focus{}
 }
+
 blockquote {
     padding-left: 24px;
     border-left: 2px solid $mycolor-5;
 }
+
+// buttons
+button {
+    width: 50px;
+    height: 40px;
+    color: $mycolor-1;
+    margin: 15px;
+    background-color: $clientcolor-2;
+    background-image: url(../images/button-geel);
+    border: none;
+    &:hover {
+        background-image: url(../images/button-grijs);
+        background-color: $mycolor-1;
+        color: $clientcolor-2;
+    } 
+  }
 
 // ongeordende lijstjes met een ander symbool of kleur
 main ul {
