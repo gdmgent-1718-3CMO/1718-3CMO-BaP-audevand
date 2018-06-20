@@ -82,10 +82,11 @@ blockquote {
 
 // buttons
 button {
-    width: 50px;
+    width: 100px;
     height: 40px;
-    color: $mycolor-1;
+    color: $color-white;
     margin: 15px;
+    margin-left: 0;
     background-color: $clientcolor-2;
     background-image: url(../images/button-geel);
     border: none;
